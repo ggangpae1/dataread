@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class FrontController {
     @GetMapping("/")
     public String index() {
-        return "Hello Spring";
+        return "Hello 중앙정보처리학원";
     }
 }
