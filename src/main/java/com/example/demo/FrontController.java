@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class FrontController {
     @GetMapping("/")
     public String index() {
-        return "Hello 중앙정보처리학원";
+        return "CI: 코드를 지속적으로 어딘가에 저장, CD: 무중단 배포";
     }
 }
